@@ -43,3 +43,8 @@ h1{
 h4{
 	text-align: center;
 }
+img {
+	border-radius: 30px;
+	width: 100%;
+	height: minmax(300px, 1fr;)
+}
