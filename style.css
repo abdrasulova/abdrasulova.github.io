@@ -44,7 +44,7 @@ h4{
 	text-align: center;
 }
 img{
-	border-radius: 30px;
-	width: 100%;
-	height: minmax(300px, 1fr;)
+	border-radius: 10px;
+	width: 80%;
+	height: minmax(50px, 1fr;)
 }
