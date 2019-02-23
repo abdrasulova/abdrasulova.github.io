@@ -1,3 +1,6 @@
+div {
+	cursor: se-resize;
+}
 .grd{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -47,4 +50,7 @@ img{
 	border-radius: 10px;
 	width: 80%;
 	height: minmax(50px, 1fr;)
+}
+.new {
+	background-color: orange;
 }
