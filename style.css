@@ -7,24 +7,6 @@ div {
 	grid-template-rows: repeat(3, 1fr);
 	grid-gap: 50px;
 }
-.dr1{
-	background-color: red;
-}
-.dr2{
-	background-color: blue;
-}
-.dr3{
-	background-color: brown;
-}
-.dr4{
-	background-color: yellow;
-}
-.dr5{
-	background-color: purple;
-}
-.dr6{
-	background-color: white;
-}
 .stylesOfDiv{
 	border-style: solid;
 	border-width: 5px;
@@ -32,9 +14,12 @@ div {
 	border-radius: 30px;
 	padding: 5px 5px 5px 5px;
 	transition: 1s;
+	cursor: pointer;
+	outline: none;
+	background-color: gold;
 }
 .stylesOfDiv:hover{
-	background-color: grey;
+	background-image: repeating-radial-gradient(black,red,silver,#154DEF);
 	color: white;
 	text-shadow: 0 0 5px black;
 	box-shadow: 5px 5px 5px orange;
@@ -53,4 +38,11 @@ img{
 }
 .new {
 	background-color: orange;
+}
+body{
+	background-image: repeating-radial-gradient(#12E7EA, #BC008E,#16049F,#F71111);
+	font-family: 'Lobster', cursive;
+}
+p{
+	text-align: justify;
 }
