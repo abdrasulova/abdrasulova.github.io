@@ -19,7 +19,7 @@ div {
 	background-color: gold;
 }
 .stylesOfDiv:hover{
-	background-image: repeating-radial-gradient(black,red,silver,#154DEF);
+	background-image: linear-gradient(#11B0A3,#EB15B6,#920694);
 	color: white;
 	text-shadow: 0 0 5px black;
 	box-shadow: 5px 5px 5px orange;
@@ -40,7 +40,7 @@ img{
 	background-color: orange;
 }
 body{
-	background-image: repeating-radial-gradient(#12E7EA, #BC008E,#16049F,#F71111);
+	background-color:  #12E7EA;
 	font-family: 'Lobster', cursive;
 }
 p{
